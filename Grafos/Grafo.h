@@ -27,7 +27,7 @@ public:
     void eliminarNodo(const T& nodo);
     void eliminarArista(const T& origen, const T& destino);
     bool estanConectados(const T& origen, const T& destino);
-    bool buscarNodo(const T& nodo); // Declaración añadida
+    bool buscarNodo(const T& nodo);// Declaración añadida
     void imprimir();
 
 private:
